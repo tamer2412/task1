@@ -8,6 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<style> 
+    input[type=text] {
+      width: 170px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
+    
+    input[type=text]:focus {
+      width: 500px;
+    }
+    </style>
 </head>
 <body>
 <strong><h1>Cyber Security</h1></strong>
@@ -37,7 +57,8 @@
     </table>
 
   </h4>
-
+  <input type="text" name="search" placeholder="Search here">
+  
 </div>
 </body>
 </html>
