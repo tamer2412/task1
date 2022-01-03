@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <title>Help with your Cyber Security</title>
     <link rel = "stylesheet" href="CSS/style.css">
-    <link rel = "shortcut icon" href = "css/images/favicon.ico" type = "image/x-icon">
+    <link rel = "icon" href = "https://www.favicon.by/ico/61d2f83f94ef6.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<style> 
+    input[type=text] {
+      width: 175px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
+    
+    input[type=text]:focus {
+      width: 500px;
+    }
+    </style>
 </head>
 <body>
 <strong><h1>Cyber Security</h1></strong>
@@ -37,7 +57,8 @@
     </table>
 
   </h4>
-
+  <input type="text" name="search" placeholder="Search here">
+  
 </div>
 </body>
 </html>
